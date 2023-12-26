@@ -12,7 +12,7 @@ echo $ai->createTextRequest('what is the weather in Romania?')['data'] ?? 'ERROR
 <?php
 class ChatGPT
 {
-    private $API_KEY = "ADD_YOUR_API_KEY_HERE";
+    private $API_KEY = "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";
     private $textURL = "https://api.openai.com/v1/completions";
     private $imageURL = "https://api.openai.com/v1/images/generations";
 
